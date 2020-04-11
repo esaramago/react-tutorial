@@ -31,10 +31,13 @@ img {
 
 .c-header {
   padding: 6px 12px;
-  background-color: #457fff;
+  background-color: red;
   color: #FFF;
   > h1 {
     margin: 0;
+  }
+  &.--success {
+    background-color: green;
   }
 }
 .c-profile {
