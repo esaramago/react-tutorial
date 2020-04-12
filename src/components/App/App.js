@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header/Header';
+import Form from '../Form/Form';
 import Profile from '../Profile/Profile';
 import Update from '../Update/Update';
 import data from '../../data.json';
@@ -16,6 +17,7 @@ function App() {
         <React.Fragment>
             <Header name="React" />
             <main>
+                <Form />
                 <ul class="o-grid">
                     {list}
                 </ul>

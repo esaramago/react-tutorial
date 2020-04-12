@@ -2,7 +2,7 @@
     display: flex;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid #DADADA;
+    border: 2px solid var(--color-grey-900);
     background-color: #FAFAFA;
     > * + * {
         //margin-block-end: 10px;
@@ -16,7 +16,4 @@
 }
 .c-profile__content {
     flex-grow: 1;
-}
-.c-profile__actions {
-    align-self: flex-end;
 }

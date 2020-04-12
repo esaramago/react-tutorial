@@ -40,7 +40,7 @@ class Profile extends React.Component {
                     <h2 class="a-heading-2">{this.props.profile.name}</h2>
                     <Date birthdate={this.props.profile.birthdate} />
                 </div>
-                <div class="c-profile__actions">
+                <div class="u-align-self-end">
                     <button type="button" class="a-button" onClick={this.toggleActive}>
                         {this.state.isActive ? 'Deactivate' : 'Activate'}
                     </button>

@@ -1,0 +1,8 @@
+﻿.c-form {
+    padding: var(--gap);
+    border: 2px solid var(--color-grey-900);
+    background-color: #EEE;
+    > * + * {
+        margin-top: var(--gap);
+    }
+}
