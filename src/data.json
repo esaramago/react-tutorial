@@ -1,0 +1,21 @@
+﻿{
+    "profiles": [
+        {
+            "id": 2,
+            "name": "Ed",
+            "birthdate": "07/03/2000",
+            "isActive": false
+        },
+        {
+            "id": 3,
+            "name": "Neal",
+            "birthdate": "07/03/1999",
+            "isActive": true
+        },
+        {
+            "id": 7,
+            "name": "Fred",
+            "isActive": false
+        }
+    ]
+}

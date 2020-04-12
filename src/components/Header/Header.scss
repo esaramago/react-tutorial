@@ -1,0 +1,11 @@
+﻿.c-header {
+    padding: 6px 12px;
+    background-color: var(--color-error);
+    color: #FFF;
+    > h1 {
+        margin: 0;
+    }
+    &.--success {
+        background-color: var(--color-success);
+    }
+}

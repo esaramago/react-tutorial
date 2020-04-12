@@ -1,4 +1,5 @@
 ﻿import React from 'react';
+import './Update.scss';
 
 class Update extends React.Component {
     constructor() {

@@ -1,0 +1,22 @@
+﻿.c-profile {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #DADADA;
+    background-color: #FAFAFA;
+    > * + * {
+        //margin-block-end: 10px;
+        margin-inline-start: 10px;
+    }
+
+    &.--is-active {
+        border-color: var(--color-main-500);
+        background-color: var(--color-main-100);
+    }
+}
+.c-profile__content {
+    flex-grow: 1;
+}
+.c-profile__actions {
+    align-self: flex-end;
+}
